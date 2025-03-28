@@ -28,7 +28,8 @@ The application should provide:
 - **numpy** → Numerical operations  
 - **markdown** → Rendering formatted text  
 - **Flask** → Web framework  
-- **LLM API (Gemini)** → Generating financial explanations  
+- **LLM API (Gemini)** → Generating financial explanations
+- **statsmodels**
 
 ---
 
@@ -58,7 +59,8 @@ This project uses a financial dataset containing key metrics such as:
 - **Revenue**  
 - **Cash Flow**  
 - **Stock Prices**  
-- **Inflation Data**  
+- **Inflation Data**
+- etc
 
 The dataset is preprocessed before analysis, ensuring clean and structured input.
 ---
