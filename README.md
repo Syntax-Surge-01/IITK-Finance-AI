@@ -18,8 +18,7 @@ The application should provide:
 ### **Languages & Frameworks:**  
 - **Python** (Core backend logic)  
 - **Flask** (Web framework for interactive UI)  
-- **HTML, CSS, Jinja2** (Frontend templating)  
-- **JavaScript (Optional, for interactivity & charts)**  
+- **HTML, Jinja2, dash** (Frontend templating)  
 
 ### **Libraries Used:**  
 - **pandas** → Data handling & preprocessing  
