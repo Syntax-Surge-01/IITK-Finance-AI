@@ -112,6 +112,3 @@ Go to **http://127.0.0.1:5000/** to use the application.
 🔹 Add NLP-based financial trend analysis  
 
 ---
-
-## **📜 License**  
-This project is open-source. Feel free to modify and contribute!
