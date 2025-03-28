@@ -28,7 +28,7 @@ The application should provide:
 - **numpy** → Numerical operations  
 - **markdown** → Rendering formatted text  
 - **Flask** → Web framework  
-- **LLM API (OpenAI/Gemini/Custom)** → Generating financial explanations  
+- **LLM API (Gemini)** → Generating financial explanations  
 
 ---
 
