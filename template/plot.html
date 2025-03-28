@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Graphs</title>
+</head>
+<body>
+    <h2>Scatter Plot</h2>
+    {{ scatter_html|safe }}
+
+    <h2>Line Chart</h2>
+    {{ line_html|safe }}
+
+    <h2>Bar Chart</h2>
+    {{ bar_html|safe }}
+
+    <br><br>
+    <a href="/">Go Back</a>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graphs</title>
+</head>
+<body>
+    <h2>Scatter Plot</h2>
+    {{ scatter_html|safe }}
+
+    <h2>Line Chart</h2>
+    {{ line_html|safe }}
+
+    <h2>Bar Chart</h2>
+    {{ bar_html|safe }}
+
+    <h2>Cash Flow Margin by Company</h2>
+    {{ cf_company_html|safe }}
+
+    <h2>Cash Flow Margin by Year</h2>
+    {{ cf_year_html|safe }}
+
+    <h2>Cash Flow Margin by Industry</h2>
+    {{ cf_industry_html|safe }}
+
+    <h2>px scatter plot</h2>
+    {{ px_scatter_html|safe }}
+
+    <br><br>
+    <a href="/">Go Back</a>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graphs</title>
+</head>
+<body>
+    <h2>Scatter Plot</h2>
+    {{ scatter_html|safe }}
+    <p><strong>Explanation:</strong> {{ scatter_explanation | safe }}</p>
+
+    <h2>Line Chart</h2>
+    {{ line_html|safe }}
+    <p><strong>Explanation:</strong> {{ line_explanation | safe}}</p>
+
+    <h2>Bar Chart</h2>
+    {{ bar_html|safe }}
+    <p><strong>Explanation:</strong> {{ bar_explanation | safe }}</p>
+
+    <h2>Cash Flow Margin by Company</h2>
+    {{ cf_company_html|safe }}
+    <p><strong>Explanation:</strong> {{ cf_company_explanation | safe }}</p>
+
+    <h2>Cash Flow Margin by Year</h2>
+    {{ cf_year_html|safe }}
+    <p><strong>Explanation:</strong> {{ cf_year_explanation | safe}}</p>
+
+    <h2>Cash Flow Margin by Industry</h2>
+    {{ cf_industry_html|safe }}
+    <p><strong>Explanation:</strong> {{ cf_industry_explanation | safe}}</p>
+
+    <h2>3D Scatter Plot</h2>
+    {{ scatter_3d_html|safe }}
+    <p><strong>Explanation:</strong> {{ scatter_3d_explanation | safe}}</p>
+
+    <br><br>
+    <a href="/">Go Back</a>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Company</title>
+</head>
+<body>
+    <h2>Select a Company to View Graphs</h2>
+    <form action="/plot" method="post">
+        <label for="company">Choose a company:</label>
+        <select name="company" id="company">
+            {% for company in companies %}
+                <option value="{{ company }}">{{ company }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <button type="submit">Generate Graphs</button>
+    </form> 
+
+     <form action="/plot" method="post">
+        <label for="company">Select Company:</label>
+        <select name="company" id="company">
+            {% for company in companies %}
+            <option value="{{ company }}">{{ company }}</option>
+            {% endfor %}
+        </select>
+    
+        <label for="year">Select Year:</label>
+        <input type="number" name="year" id="year" required>
+    
+        <button type="submit">Generate Plots</button>
+    </form>
+    
+</body>
+</html>
